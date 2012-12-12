@@ -1,10 +1,8 @@
-blueprint
-=========
+# Introduction
 
 Blueprint of strategies and plays
 
-Usage
-=====
+## Usage
 
 First clone this repo
 	$ git clone https://github.com/bluenerv/blueprint.git
