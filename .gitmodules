@@ -1,0 +1,9 @@
+[submodule "playbooks"]
+	path = playbooks
+	url = ssh://git@github.com/bluenerv/playbooks.git
+[submodule "strategybooks"]
+	path = strategybooks
+	url = ssh://git@github.com/bluenerv/strategybooks.git
+[submodule "ansible"]
+	path = ansible
+	url = ssh://git@github.com/ansible/ansible.git
