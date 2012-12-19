@@ -1,0 +1,6 @@
+---
+remove_pkgs:
+- syslog-ng
+
+install_pkg:
+- rsyslog

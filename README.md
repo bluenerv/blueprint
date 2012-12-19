@@ -1,6 +1,6 @@
 # Introduction
 
-Blueprint of strategies and plays
+Blueprint of managing a public ansible playbooks along side business specific playbooks
 
 ## Usage
 
@@ -15,21 +15,4 @@ Then init and update the submodules
     $ git submodule update
     $ cd -
 
-Next edit your global variables with the correct paths
-
-    $ cp playbooks/global/vars/{templates,main}.yml
-    $ vi playbooks/global/vars/main.yml
-
-Now prepare your ansible environment (assumes you already have the proper python modules installed in accordance to ansible)
-
-    $ cd ansible
-    $ source ./hacking/env-setup
-    $ cd -
-
-Edit the hosts file and point at a test machine, otherwise you will apply the strategybook on localhost
-
-    $ vi hosts
-
-Finally you can now execute a strategybook
-
-    $ ansible-playbook strategybooks/sandbox/play.yml
+More to follow once prototype is complete!

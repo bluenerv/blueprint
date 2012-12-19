@@ -1,0 +1,16 @@
+#
+#
+#
+---
+dns_servers:
+- ns1.company.com
+- ns2.company.com
+
+ldap_servers:
+- ldap1.company.com
+- ldap2.company.com
+
+ntp_servers:
+- pool1.ntp.org
+- pool2.ntp.org
+

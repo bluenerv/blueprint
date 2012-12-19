@@ -1,2 +1,8 @@
+[datacentre1:children}
+role1
+
+[role1:children}
+localhost
+
 [localhost]
 127.0.0.1
